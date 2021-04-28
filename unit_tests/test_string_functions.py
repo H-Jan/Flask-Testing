@@ -25,8 +25,8 @@ class StringTests(TestCase):
 
     def test_reverse_long(self):
         """Test reversing a long string."""
-        expected = ''
-        actual = ''
+        expected = 'olleH'
+        actual = reverse_words('Hello')
         self.assertEqual(actual, expected)
 
     def test_reverse_short(self):
